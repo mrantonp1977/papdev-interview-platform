@@ -6,6 +6,7 @@ import Link from 'next/link';
 import DisplayTechIcons from './DisplayTechIcons';
 
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const InterviewCard = ({ interviewId, userId, role, type, techstack, createdAt}: InterviewCardProps) => {
   const feedback = null as Feedback | null;
   const normalizedType = /mix/gi.test(type) ? "Mixed" : type;
